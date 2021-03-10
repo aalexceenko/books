@@ -10,6 +10,6 @@ export const bookType = shape({
   company: PropTypes.string.isRequired,
   year: PropTypes.number.isRequired,
   releaseYear: PropTypes.number.isRequired,
-  description: PropTypes.array.isRequired,
-  isbn: PropTypes.number.isRequired,
+  description: PropTypes.string.isRequired,
+  isbn: PropTypes.string.isRequired,
 });
